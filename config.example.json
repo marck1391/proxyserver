@@ -1,0 +1,11 @@
+{
+  "port": 443,
+  "target": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "ssl": {
+    "key": "certs/domain.key",
+    "cert": "certs/domain.crt"
+  }
+}
