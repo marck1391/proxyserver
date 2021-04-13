@@ -11,7 +11,7 @@ var options = {/*key, cert, ca*/}
 
 Object.keys(config.ssl).forEach(function(keyName){
   var key = config.ssl[keyName]
-  if(fs.existsSync(onfig.ssl[keyName])){
+  if(fs.existsSync(config.ssl[keyName])){
     key = fs.readFileSync(config.ssl[keyName])
   }
   options[keyName] = key
